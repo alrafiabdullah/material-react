@@ -72,7 +72,6 @@ function CheckboxExample() {
  */
 function handleButton(e) {
   e.preventDefault();
-  console.log(e);
   alert(`${e.target.outerText} Clicked!`);
 }
 
